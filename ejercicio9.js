@@ -22,3 +22,15 @@ console.log("----------Funciones anonimas autoejecutables (IIFE)-------------");
 (function (c){
     c.log("Mi segunda funcion anonima autoejecutable (IIFE) con parametros");
 })(console);
+
+(function (x,y,z){
+    console.log(x+y+z);
+})(1,2,3);
+
+(function (x){
+    if (x%2==1){
+        console.log("Impar")
+    }else{
+        console.log("par")
+    }
+})(5);
