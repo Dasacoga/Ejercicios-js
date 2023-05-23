@@ -53,12 +53,14 @@ while (c==3){
     try{ 
         if (isNaN(numerouno)){
             throw new Error("El caracter introducido no es un numero")
+        }else if ((isNaN(numerodos)||numerodos<0) && (seleccion-1)==5 ){
+            throw new Error("El caracter introducido no es valido")
         }
         else{
             c=2
         }
     }catch(error){
-        console.log("¡Cuidado! No se reciben datos no numéricos.")
+        console.log("¡Cuidado! caracter no valido")
     }   
 }
 var c=3
@@ -66,14 +68,16 @@ var c=3
 while (c==3){
     numerodos=parseInt(prompt("Inserta el segundo numero "))
     try{ 
-        if (isNaN(numerodos)){
-            throw new Error("El caracter introducido no es un numero")
+        if ((isNaN(numerodos)||numerodos==0) && (seleccion-1)==3 ){
+            throw new Error("El caracter introducido no es valido")
+        }else if (isNaN(numerodos)){
+            throw new Error("El caracter introducido no es valido")
         }
         else{
             c=2
         }
     }catch(error){
-        console.log("¡Cuidado! No se reciben datos no numéricos.")
+        console.log("¡Cuidado! caracter no valido")
     }
 }
 
