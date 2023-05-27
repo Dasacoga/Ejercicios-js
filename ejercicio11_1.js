@@ -42,3 +42,8 @@ if (num[0]>num[1]){
 }
 
 console.log(numama)
+
+//ordena de menor a mayor facil
+const nume=[1,3,6,7,4,33,7,5,3,6,7,7,4,4,6,7,89,3,3,6,66,79,552]
+const c=num.sort(function(a,b){return a-b})
+console.log(c)
