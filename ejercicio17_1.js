@@ -22,3 +22,21 @@ for(i of cade){
         console.log("El correo "+i+" es invalido")
     }
 }
+
+//parte 3
+
+const ps=require("prompt-sync")
+const prompt=ps()
+let condicion1=/\d{1,}/
+let condicion2=/[A-Z]{1,}/
+let condicion3=/[a-z]{1,}/
+var c=2
+while (c==2){
+    let contraseña=prompt("Escribe la contraseña ")
+    if (condicion1.test(contraseña)&&condicion2.test(contraseña)&&condicion3.test(contraseña)){
+        console.log("Contraseña valida")
+        c=3
+    }else{
+        console.log("contraseña invalida intenta denuevo")
+    }
+}
