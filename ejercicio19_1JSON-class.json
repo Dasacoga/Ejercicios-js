@@ -1,0 +1,15 @@
+{
+    "bookstore":[{
+        "title":"2001",
+        "author":"Arthur C. Clarke",
+        "Price":30.0,
+        "year":1968
+    },
+    {
+        "title":"Story about a True Man",
+        "author":"Boris Polevoy",
+        "Price":20.0,
+        "year":1952
+    }]
+}
+

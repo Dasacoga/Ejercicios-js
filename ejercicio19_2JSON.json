@@ -1,0 +1,10 @@
+{
+    "Contacto":{
+        "correo":"santi@gmail.com", 
+        "Telefono":{
+        "Telefono celular":7287482732,
+        "Telefono fijo":"Indefinido"
+        },
+        "direccion":"cr2 #435"
+    }
+}
