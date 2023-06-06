@@ -57,6 +57,6 @@ ajax.addEventListener("readystatechange", (e) => {
 });
 
 /*Instrucción que abre la petición con el método GET.*/
-ajax.open("GET", "https://jsonplaceholder.typicode.com/users/1");
+ajax.open("GET", "https://jsonplaceholder.typicode.com/users/26");
 /*Instruccion que envia la peticion send()*/
 ajax.send();
