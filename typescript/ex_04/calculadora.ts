@@ -22,8 +22,7 @@ $(function(){
 
        }
     }else{
-        $("cuerpo").remove()
-        $($d).insertAfter("h2")
+
     }
         
     })
